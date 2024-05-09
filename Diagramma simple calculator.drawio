@@ -1,0 +1,77 @@
+<mxfile host="app.diagrams.net" modified="2024-05-09T15:40:53.113Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Mu7gTNsK5i0-e7pv71Er" version="24.2.7" type="device">
+  <diagram name="Pagina-1" id="qDvT8pL1-tRPj25A8NMS">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zZG7Vbiun7sjZ48M85mA-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zZG7Vbiun7sjZ48M85mA-1" target="zZG7Vbiun7sjZ48M85mA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZG7Vbiun7sjZ48M85mA-1" value="Inizio" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zZG7Vbiun7sjZ48M85mA-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zZG7Vbiun7sjZ48M85mA-2" target="zZG7Vbiun7sjZ48M85mA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZG7Vbiun7sjZ48M85mA-2" value="Il display è vuoto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zZG7Vbiun7sjZ48M85mA-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zZG7Vbiun7sjZ48M85mA-4" target="zZG7Vbiun7sjZ48M85mA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZG7Vbiun7sjZ48M85mA-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zZG7Vbiun7sjZ48M85mA-4" target="zZG7Vbiun7sjZ48M85mA-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZG7Vbiun7sjZ48M85mA-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zZG7Vbiun7sjZ48M85mA-4" target="zZG7Vbiun7sjZ48M85mA-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZG7Vbiun7sjZ48M85mA-4" value="Se viene cliccato un numero esso campare sullo schermo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zZG7Vbiun7sjZ48M85mA-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zZG7Vbiun7sjZ48M85mA-6" target="zZG7Vbiun7sjZ48M85mA-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zZG7Vbiun7sjZ48M85mA-6" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;cosa succede se clicco un secondo numero?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="225" width="90" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zZG7Vbiun7sjZ48M85mA-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zZG7Vbiun7sjZ48M85mA-10" target="zZG7Vbiun7sjZ48M85mA-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZG7Vbiun7sjZ48M85mA-10" value="esso viene aggiunto al fianco del primo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="250" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zZG7Vbiun7sjZ48M85mA-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zZG7Vbiun7sjZ48M85mA-11" target="zZG7Vbiun7sjZ48M85mA-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZG7Vbiun7sjZ48M85mA-11" value="se clicco su un operatore?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="335" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zZG7Vbiun7sjZ48M85mA-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zZG7Vbiun7sjZ48M85mA-20" target="zZG7Vbiun7sjZ48M85mA-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZG7Vbiun7sjZ48M85mA-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="zZG7Vbiun7sjZ48M85mA-20" target="zZG7Vbiun7sjZ48M85mA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZG7Vbiun7sjZ48M85mA-20" value="esso viene salvato, si resetta lo schermo e permette di inserire un nuovo numero" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="505" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zZG7Vbiun7sjZ48M85mA-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zZG7Vbiun7sjZ48M85mA-22" target="zZG7Vbiun7sjZ48M85mA-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZG7Vbiun7sjZ48M85mA-22" value="se premo sul pulsante = compare il risultato della operazione&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="645" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zZG7Vbiun7sjZ48M85mA-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="zZG7Vbiun7sjZ48M85mA-24" target="zZG7Vbiun7sjZ48M85mA-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zZG7Vbiun7sjZ48M85mA-24" value="se premo C si resetta lo schermo" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
