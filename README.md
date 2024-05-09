@@ -32,7 +32,7 @@ Per aggiungere gli event listener ai numeri creo una funzione (da riusare per ag
 
 ### Funzione gestione dei numeri
 
-la funzione `gestioneDeiNumeri`(nome provvsiorio) questa funzione ha lo scopo di gestire questo i numeri selizionati e se aggungerlla alla variabile num1 se selezionati prima dell'operatore altimenti a num2
+la funzione `handleNumberClick` questa funzione ha lo scopo di gestire questo i numeri selizionati e se aggungerlla alla variabile num1 se selezionati prima dell'operatore altimenti a num2
 
 ### Funzione gestione degli operatori
 
