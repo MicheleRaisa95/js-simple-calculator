@@ -70,6 +70,34 @@ function handleOperatorClick(event) {
 //evoco funzione addOperatorListeners
 addOperatorListeners()
 
+// MILESTONE 3 aggiungo event listener al pulsante =
+
+function addEqualListener() {
+    // selezione il pulsante =
+    const equalButton = document.querySelector (".orange");
+    // aggiungo event listener al click
+    equalButton.addEventListener('click', handleEqualClick);
+}
+
+// gestione del click sul pulsante =
+
+function handleEqualClick() {
+    // se num1 e num2 non sono vuoti, calcola il risultato
+    if(num1 !== '' && num2 !== '') {
+        const result = calculate();
+        display.innerText = result;
+        num1 = result;
+        num2 = '';
+        operator = '';
+        console.log("hai cliccato su:" + result);
+    }
+}
+
+// invoco la funzione 
+addEqualListener()
+
+
+
 
 
 
