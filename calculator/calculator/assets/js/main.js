@@ -97,7 +97,36 @@ function handleEqualClick() {
 addEqualListener()
 
 
+// funzione per calcolare il risultato
 
+function calculate () {
+    const num1Int = parseInt(num1);
+    const num2Int = parseInt(num2);
+    let result;
+
+    //eseguo il calcolo
+
+    switch (operator) {
+        case '+':
+            result = num1Int + num2Int;
+            break;
+
+            case '-':
+                result = num1Int - num2Int;
+                break;
+
+                case '*':
+                    result = num1Int * num2Int;
+                    break;
+
+                    case '/':
+                        result = num1Int / num2Int;
+                        break;
+                        default:
+                            result = num1Int;
+    }
+    return result;
+}
 
 
 
