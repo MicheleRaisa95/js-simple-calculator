@@ -36,7 +36,7 @@ la funzione `handleNumberClick` questa funzione ha lo scopo di gestire questo i 
 
 ### Funzione gestione degli operatori
 
-Questa funzione  memorizza quale operatore sceglie l'utente 
+Questa funzione `handleOperatorClick`  memorizza quale operatore sceglie l'utente
 
 ### Funzione gestione =
 
