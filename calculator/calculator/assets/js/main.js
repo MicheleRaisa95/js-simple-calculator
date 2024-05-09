@@ -15,7 +15,7 @@ const display = document.getElementById("result");
 // MILESTONE 1 aggiungo event listener a tutti i numeri
 
 function addEventListeners () {
-    const numbers = document.querySelectorAll(".numbers button");
+    const numbers = document.querySelectorAll(".numbers button:not(.orange)");
     for (let i = 0; i < numbers.length; i++) {
         numbers[i].addEventListener('click', handleNumberClick);
     }
