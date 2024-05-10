@@ -60,7 +60,7 @@ function handleOperatorClick(event) {
         operator = value;
     } else if (num1 !== '' && num2 !== '') {
         const result = calculate();
-        num1 = result;
+        num1 = result.toString();
         num2 = '';
         operator = value;
         display.textContent = num1;
@@ -86,7 +86,7 @@ function handleEqualClick() {
     if(num1 !== '' && num2 !== '') {
         const result = calculate();
         display.innerText = result;
-        num1 = result;
+        num1 = result.toString();
         num2 = '';
         operator = '';
         console.log("hai cliccato su:" + result);
@@ -100,7 +100,7 @@ addEqualListener()
 
 function addClearListener() {
     // seleziono il pulsante C
-    const cButton = document.querySelector (".orange");
+    const cButton = document.querySelector (".operators .orange");
     // aggiungo event listener
     cButton.addEventListener('click', handleCClick);
 }
@@ -121,30 +121,35 @@ addClearListener();
 // funzione per calcolare il risultato
 
 function calculate () {
-    const num1Int = parseInt(num1);
-    const num2Int = parseInt(num2);
+    const num1Float = parseFloat(num1);
+    const num2Float = parseFloat(num2);
+    console.log("Num1:", num1Float, "Num2:", num2Float, "Operator:", operator);
     let result;
 
     //eseguo il calcolo
 
     switch (operator) {
     case '+':
-    result = num1Int + num2Int;
+    result = num1Float + num2Float;
     break;
 
     case '-':
-    result = num1Int - num2Int;
+    result = num1Float - num2Float;
     break;
 
     case '*':
-    result = num1Int * num2Int;
+    result = num1Float * num2Float;
     break;
 
     case '/':
-    result = num1Int / num2Int;
+    if (num2Float !== 0) {
+        result = num1Float / num2Float;
+    } else {
+        result = "errore"
+    }
     break;
     default:
-    result = num1Int;
+    result = num1Float;
     }
     return result;
 }
