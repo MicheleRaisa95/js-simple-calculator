@@ -96,6 +96,27 @@ function handleEqualClick() {
 // invoco la funzione 
 addEqualListener()
 
+//  MILESTONE 4: pulsante C
+
+function addClearListener() {
+    // seleziono il pulsante C
+    const cButton = document.querySelector (".orange");
+    // aggiungo event listener
+    cButton.addEventListener('click', handleCClick);
+}
+
+// funzione gestione dei click sul tasto C
+
+function handleCClick () {
+    num1 = '';
+num2 = '';
+operator = '';
+display.innerText = 0
+}
+
+// invoco la funzione 
+addClearListener();
+
 
 // funzione per calcolare il risultato
 
@@ -107,23 +128,23 @@ function calculate () {
     //eseguo il calcolo
 
     switch (operator) {
-        case '+':
-            result = num1Int + num2Int;
-            break;
+    case '+':
+    result = num1Int + num2Int;
+    break;
 
-            case '-':
-                result = num1Int - num2Int;
-                break;
+    case '-':
+    result = num1Int - num2Int;
+    break;
 
-                case '*':
-                    result = num1Int * num2Int;
-                    break;
+    case '*':
+    result = num1Int * num2Int;
+    break;
 
-                    case '/':
-                        result = num1Int / num2Int;
-                        break;
-                        default:
-                            result = num1Int;
+    case '/':
+    result = num1Int / num2Int;
+    break;
+    default:
+    result = num1Int;
     }
     return result;
 }
